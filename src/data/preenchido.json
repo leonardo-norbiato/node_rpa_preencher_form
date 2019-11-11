@@ -1,0 +1,45 @@
+{
+    "dadosenviados": {
+        "site": "http://workinside.com.br/",
+        "contato": {
+            "selector": "/html/body/nav/div/div[2]/div/ul/li[4]/a[contains(text(),[#textfind#])]",
+            "texto": "Contato"
+        },
+        "formulario": [
+            {
+                "campo": {
+                    "texto": "Nome de Teste de Preenchimento",
+                    "selector": "#nome"
+                }
+            },
+            {
+                "campo": {
+                    "texto": "Empresa de Teste de Preenchimento",
+                    "selector": "#empresa"
+                }
+            },
+            {
+                "campo": {
+                    "texto": "email@teste.de.preenchimento",
+                    "selector": "#email"
+                }
+            },
+            {
+                "campo": {
+                    "texto": "11 9999-9999",
+                    "selector": "#phone"
+                }
+            },
+            {
+                "campo": {
+                    "texto": "Mensagem de Teste de Preenchimento\n Terminou!!!",
+                    "selector": "#message"
+                }
+            }
+        ],
+        "enviar": {
+            "selector": "#contact-form > div > div:nth-child(8) > button",
+            "texto": "Enviar"
+        }
+    }
+}
